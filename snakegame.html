@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Snake Game</title>
+<link rel="stylesheet" type = "text/css" href = "style.css">
+<script type="text/javascript" src="snake.js"></script>
+</head>
+<body>
+<div id="container">
+<canvas id="canvas" width="450" height = "450" >
+</div>
+<p id="score"></p>
+<p>
+  <div id="button">
+  <div id="help" >help</div>
+  <button id="restart" onclick="history.go(0)">restart</button>
+  </div>
+  <div id="info_text">
+		<h3 id="close">X</h3>
+		<h3>Use the arrow keys to control the snake.</h3>
+		<h3>The color of the snake will turn into the color of what it ate.</h3>
+		<h3>The snake will speed up as long as you get enough blocks.</h3>
+		<h3>Don't eat yourself or smash into the walls.</h3>
+		<h3>By the way, there is no pause button but you can restart the game lol.</h3>	
+  </div>
+</p>
+</body>
+</html>
